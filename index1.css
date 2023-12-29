@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    /* margin: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow: hidden; */
+    overflow: auto;
+    /* Hide scrollbars */
+}
+
+.ul1 {
+    list-style-type: none;
+    /* overflow: hidden; */
+    position: absolute;
+    top: 50px;
+    width: 90%;
+    left: 50px;
+}
+
+.li1 {
+    float: left;
+    left: 200px;
+}
+
+li a {
+
+    display: flex;
+    color: rgb(13, 13, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* top: 10; */
+    margin-left: 40px;
+}
+.log {
+    display: flex;
+    position: absolute;
+    /* float: right; */
+    right: 100px;
+    top: 10px;
+}
+.hh {
+    position: absolute;
+    right: 120px;
+    top: 14px;
+    display: flex;
+    /* top: 50px; */
+}
+.pa {
+    position: absolute;
+    top: 250px;
+    left: 130px;
+    font-size: 55px;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: rgb(159, 76, 237);
+}
+.pp1 {
+    position: absolute;
+    top: 120px;
+}
+.g1 {
+    position: absolute;
+    right: 40px;
+    top: 90px;
+}
+.g2 {
+    position: absolute;
+    right: 290px;
+    top: 110px;
+}
+.g3 {
+    position: absolute;
+    right: 200px;
+    top: 500px;
+}
+.g4 {
+    position: absolute;
+    left: 0;
+    top: 580px;
+}
+.sph {
+    position: absolute;
+    margin-top: 100px;
+    left: 250px;
+}
+.mot {
+    position: absolute;
+    left: 100px;
+    margin-top: 170px;
+}
+.hh2 {
+    position: absolute;
+    left: 120px;
+    margin-top: 380px;
+}
+.pp2 {
+    position: absolute;
+    font-size: 18px;
+    left: 70px;
+    margin-top: 410px;
+    width: 330px;
+    text-align: center;
+}
+.clock {
+    position: absolute;
+    left: 600px;
+    margin-top: 300px;
+}
+.hh3 {
+    position: absolute;
+    left: 630px;
+    margin-top: 500px;
+}
+.pp3 {
+    position: absolute;
+    font-size: 19px;
+    left: 550px;
+    margin-top: 530px;
+    width: 400px;
+    text-align: center;
+}
+.percen {
+    position: absolute;
+    left: 970px;
+    margin-top: 580px;
+}
+.hh4 {
+    position: absolute;
+    left: 1030px;
+    margin-top: 740px;
+}
+.pp4 {
+    position: absolute;
+    font-size: 20px;
+    left: 850px;
+    margin-top: 780px;
+    width: 500px;
+    text-align: center;
+}
+.whyk {
+    position: absolute;
+    left: 90px;
+    margin-top: 580px;
+}
+.hh5 {
+    position: absolute;
+    font-size: 16px;
+    left: 160px;
+    margin-top: 670px;
+    color: aliceblue;
+}
+.hh6 {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: lighter;
+    font-size: 45px;
+    left: 160px;
+    margin-top: 700px;
+}
+.jum1 {
+    position: absolute;
+    left: 200px;
+    margin-top: 1070px;
+}
+.jum2 {
+    position: absolute;
+    left: 500px;
+    margin-top: 950px;
+}
+.jum3 {
+    position: absolute;
+    left: 1050px;
+    margin-top: 1070px;
+}
+.hjum {
+    position: absolute;
+    left: 576px;
+    margin-top: 1280px;
+    font-size: 25px;
+}
+.pjum {
+    position: absolute;
+    font-size: 20px;
+    left: 480px;
+    margin-top: 1330px;
+    width: 500px;
+    text-align: center;
+}
+.arw {
+    font-size: 25px;
+    position: absolute;
+    left: 480px;
+    margin-top: 1200px;
+}
+.arw2 {
+    font-size: 25px;
+    position: absolute;
+    left: 900px;
+    margin-top: 1200px;
+}
+.sec4 {
+    box-sizing: border-box;
+    /* width: 100px; */
+    /* height: 300px; */
+    margin-top: 1500px
+}
+.footr {
+    position: absolute;
+    /* margin-top: 1500px; */
+    height: 600px;
+    width: 1440px;
+    /* clip: rect(0px,1300px,500px,100px); */
+}
+.bgirl {
+    position: absolute;
+    /* margin-top: 1500px; */
+    top: 2290px;
+    height: 490px;
+    width: 600px;
+    left: 700px;
+    /* clip: rect(0px,1300px,500px,100px); */
+}
+.log1 {
+    position: absolute;
+    /* float: right; */
+    left: 230px;
+    top: 2600px;
+}
+.playst {
+    position: absolute;
+    /* float: right; */
+    left: 245px;
+    top: 2608px;
+}
+.hhh1 {
+    position: absolute;
+    left: 280px;
+    top: 2610px;
+}
+.log2 {
+    position: absolute;
+    /* float: right; */
+    left: 100px;
+    top: 2600px;
+}
+.appst {
+    position: absolute;
+    /* float: right; */
+    left: 115px;
+    top: 2605px;
+}
+.hhh2 {
+    position: absolute;
+    left: 150px;
+    top: 2610px;
+}
+.icon1{
+    position: absolute;
+    /* float: right; */
+    left: 105px;
+    top: 2670px;
+}
+.icon2{
+    position: absolute;
+    /* float: right; */
+    left: 205px;
+    top: 2670px;
+}
+.icon3{
+    position: absolute;
+    /* float: right; */
+    left: 155px;
+    top: 2666px;
+}
+.ul2 {
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    overflow: hidden;
+    position: absolute;
+    top: 2720px;
+    width: 90%;
+    left: 50px;
+}
+.li2 {
+    float: left;
+    left: 100px;
+}
+@media screen and (max-width: 768px) {
+    .pho1{
+            display: none;
+        
+        }
+        .log{
+            display: flex;
+    position: absolute;
+    float: right;
+    right: 100px;
+    top: 100px;
+        }
+        .hh{
+            top: 105px;
+        }
+        .pp1{
+            display: none;
+        }  
+        .mot {
+            position: absolute;
+            left: 100px;
+            margin-top: 60px;
+        }
+        .hh2 {
+            position: absolute;
+            left: 120px;
+            margin-top: 250px;
+        }
+        .pp2 {
+           display: none;
+        }
+        .clock {
+            position: absolute;
+            left: 400px;
+            margin-top: 200px;
+        }
+        .hh3 {
+            position: absolute;
+            left: 420px;
+            margin-top: 400px;
+        }
+        .pp3 {
+            display: none;
+        }
+        .percen {
+            position: absolute;
+            left: 100px;
+            margin-top: 380px;
+        }
+        .hh4 {
+            position: absolute;
+            left: 180px;
+            margin-top: 540px;
+        }
+        .pp4 {
+          display: none;
+        }
+        .sph{
+            display: none;
+        }
+        .pjum{
+            display: none;
+        }
+        .sec3{
+            display: none;
+        }
+        .footr{
+            width: 670px;
+        }
+        .bgirl{
+            width: 300px;
+            left: 350px;
+        }
+        
+
+    } 
+
+
